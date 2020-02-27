@@ -1,0 +1,148 @@
+nav ul{
+  list-style-type:none;
+  border-bottom: 3px solid currentcolor;
+  border-bottom-color: white;
+}
+
+nav a{
+  color: black;
+  text-decoration:none;
+}
+
+footer p{
+  margin: 0px 0px 0px 0px;
+}
+nav li{
+  display:inline;
+  font-size:30px;
+  padding:20px;
+}
+
+nav{
+  float: top;
+}
+
+.center{
+  display: block;
+}
+
+header {
+  width: 100%;
+  max-height: 50px;
+  text-align: right;
+}
+
+header p {
+  font-weight: bold;
+  font-size: 22px;
+  float: left;
+  margin-top: 5px;
+  margin-left: 10px;
+}
+/*Hero with Text*/
+.homeHero{
+   position:relative;
+  text-align:center;
+  color:black;
+}
+.homeCentered{
+  position:absolute;
+  top: 50%;
+  bottom: 50%;
+  transform: translate(-50%, -50%);
+  left: 50%;
+  font-weight: bold;
+  font-size: 80px;
+}
+/*^ Hero with text ^*/
+main p{
+  text-align: left;
+  font-size: 20px;
+}
+
+main h3{
+  text-align: center;
+  font-size: 21px;
+}
+
+body{
+  background-color:#cce6ff;
+}
+
+main h4{
+  text-align:left;
+}
+
+/*Images with HyperLinks to respective pages*/
+.theOperaHouse{
+  border-radius: 0 50px 0 50px;
+}
+
+
+.mailbox{
+  border-radius: 0 50px 0 50px;
+}
+
+.building{
+  border-radius: 50px 0 50px 0;
+}
+/*How to line up the images in a row*/
+.box{
+  display: flex;
+  flex-direction: row;
+  border:3px red;
+  
+}
+* {
+  box-sizing: border-box;
+}
+
+.row {
+  display: flex;
+}
+
+/* Create three equal columns that sits next to each other */
+.column {
+  flex: 33.33%;
+  padding: 5px;
+  margin: 0px 0px 90px 0px;
+  text-align: center;
+}
+
+footer p{
+  text-align: center;
+}
+/*Mailbox text*/
+.bottom-left{
+  bottom: 8px;
+  left: 16px;
+  color: black;
+  font-size: 22px;
+  text-decoration: none;
+}
+
+.theOperaHouse{
+  width: 75%;
+}
+
+.building{
+  width: 75%;
+}
+
+.mailbox{
+  width:75%;
+  height:93%;
+}
+
+.Klogo{
+  width:3%;
+  height:3%;
+}
+
+.insta{
+  width:2%;
+}
+
+.twitter{
+  width:2%;
+}
